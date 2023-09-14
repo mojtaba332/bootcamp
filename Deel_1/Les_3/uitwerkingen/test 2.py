@@ -1,10 +1,10 @@
 keuze = input("maak uw keuze (a,b,c):")
-omschrijving = ''
+print ("")
 
 
 if keuze == 'a':
-    omschrijving = 'Oke'
+    print ("Oke")
 elif keuze == 'b':
-    omschrijving = 'Done'
+    print ("Done")
 elif keuze == 'c':
-    omschrijving = 'Finish'
+    print ("Finish")
