@@ -1,0 +1,18 @@
+
+cijfers = int(input("voer het cijfer in: "))
+
+
+cijfer_omschrijven = {10: "uitmuntend", 9: "zeer goed", 8: "goed", 7: "ruim voldoende", 6: "voldoende", 5: "bijna voldoende", 4: "onvoldoende", 3: "gering", 2: "slecht", 1: "zeer slecht"}
+
+if 1 <= cijfers <= 10:
+    omschrijven = cijfer_omschrijven[cijfers]
+
+    if cijfers >= 6:
+        print(f"Omschrijven: {omschrijven}")
+    else:
+        print(f"Jammer, {omschrijven} je resultaat is {cijfers}")
+
+else:
+    print("Dat kan ik niet  omzettern! voer een cijfer tussen 1 en 10 in. ")
+
+
