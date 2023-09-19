@@ -1,10 +1,9 @@
 keuze = input("maak uw keuze (a,b,c):")
 print ("")
 
-
 if keuze == 'a':
-    print ("Oke")
+    print("goed!!")
 elif keuze == 'b':
-    print ("Done")
+    print("better!")
 elif keuze == 'c':
-    print ("Finish")
+    print("niet goed!")
