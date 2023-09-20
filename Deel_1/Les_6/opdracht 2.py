@@ -20,3 +20,7 @@ elif a < b:
     print(f"variabele b is het grootste want {b} is groter dan {a}" )
 else:
     print("variabele a en b zijn gelijk") 
+
+while True:
+    a = float(input("voer de waarde voor a in:"))
+    b = float(input("voer de waarde voor b in:"))
