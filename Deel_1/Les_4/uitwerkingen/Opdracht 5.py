@@ -7,5 +7,5 @@
 var_1 = 25
 var_2 = 0
 print(var_1 / var_2)
-#als een getal door nul wordt gedeeld, is het onbekend daaroom kijg je (ZeroDivisionError: division by zero)
+
 

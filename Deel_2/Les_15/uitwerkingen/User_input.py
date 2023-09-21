@@ -8,12 +8,12 @@ def get_integer(zin):
 
     return getal
 
-def get_integer(vraag):
-    letter == ""
-    while letter == "":
-        letter = input(vraag)
-        if len(letter) > 1:
-            letter = ""
-        print("Max, 1 karakter")
+# def get_letter(vraag):
+#     letter == ""
+#     while letter == "":
+#         letter = input(vraag)
+#         if len(letter) > 1:
+#             letter = ""
+#         print("Max, 1 karakter")
         
-    return letter
+#     return letter
