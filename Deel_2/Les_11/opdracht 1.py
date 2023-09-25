@@ -31,7 +31,6 @@ print('Hallo', name)
 favoriteSeason = input(f'Wat is jouw favorite seizoen {name}? A: Lente, B: Zomer: C) Herfst of D: Winter ')
 answer = favoriteSeason.lower()
 print(answer)
-
 if answer == 'a':
      print("Ik hou ook van de lente!")
 elif answer == 'b':
