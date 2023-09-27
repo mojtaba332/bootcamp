@@ -25,7 +25,7 @@ a = b
 b= ext_var
 #voeg jouw code toe…
 #Controleer met onderstaande code of de waarden correct zijn verwisseld
-#print(f"a = {a}, b = {b}") # Moet "a = 10 b = 5" printen
+print(f"a = {a}, b = {b}") # Moet "a = 10 b = 5" printen
 
 
 # opdracht 4
@@ -48,3 +48,21 @@ getal2 = 5
 getal3 = 12
 antwoord = som(getal1, getal2, getal3)# of de naam van je eigen functie.
 print(f"De som van {getal1} + {getal2} + {getal3} = {antwoord}")
+
+# Opdracht 
+# Maak de volgende code af:# Je moet bijbetalen als je over je minuten of je GB's heen gaat en geen onbeperkt abonnement hebt.
+AANTAL_GB = 20 # Aantal GB data in je bundel
+AANTAL_MINUTEN = 200 # Aantal belminuten in je bundel
+ONBEPERKT = False # test ook met True
+aantal_minuten_gebeld = int(input("Hoeveel minuten heb je gebeld?"))
+aantal_GB_internet = int(input("Hoeveel GB's heb je gebruikt?"))
+if ONBEPERKT and (aantal_minuten_gebeld > AANTAL_MINUTEN or aantal_GB_internet > AANTAL_GB ):
+    print("Let op: je moet bijbetalen!")
+else:
+    print("Niet aan de hand gebruik je mobiel lekker verder!")
+
+
+#opdracht 7
+# Print onder elkaar de getallen 1-250 met max 2 regels code
+for getallen in range(1,250):
+    print(getallen + 1)
