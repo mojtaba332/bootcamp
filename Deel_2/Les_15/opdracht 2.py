@@ -1,11 +1,11 @@
-# opdracht 2
+#opdracht 2
 
 # Schrijf een functie met twee parameters (integers).
 # De functie retourneert de vermenigvuldiging van de twee parameters.
 
 def sommeer(getal_1, getal_2): # parameters kun je gebriuk als var in je functie
-    som = getal_1 + getal_2
-    return som
+    vermeningvukdig = getal_1 * getal_2
+    return vermeningvukdig
 def vermeningvukdig(x, y):
     pass
 

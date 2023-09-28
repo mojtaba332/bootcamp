@@ -7,7 +7,7 @@ def som_van_2_getalen(getal1, getal2):
     som = getal1 + getal2
     return som
 
-resultaat = som_van_2_getalen(2, 11)
+resultaat = (som_van_2_getalen(22, 11))
 print(resultaat)
 
 
