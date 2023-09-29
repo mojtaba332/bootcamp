@@ -9,9 +9,8 @@ namen = ["ali", "lukas", "moji", "majd","piter"]
 naam_invoeren = input("voer een naam in: ")
 
 if naam_invoeren in namen:
-    namen.remove (naam_invoeren)
-    print(f"{naam_invoeren} is verwijderd. bijgewerkte lijst {namen} ")
-
+    namen.remove(naam_invoeren)
+    print(f"de verwijderde naam is {naam_invoeren}. de bijgewerkte lijst is {namen}.")
 else:
     namen.append(naam_invoeren)
-    print(f"{naam_invoeren} is ingevoerd. bijgewerkte lijst is {namen}.")
+    print(f"de invoegde naam is {naam_invoeren}. de bijgewerkte lijst is {namen}")

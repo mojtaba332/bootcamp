@@ -8,6 +8,6 @@ def som_van_2_getalen(getal1, getal2):
     return som
 
 resultaat = (som_van_2_getalen(22, 11))
-print(resultaat)
+print(f"de som van som is :{resultaat}")
 
 

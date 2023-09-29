@@ -3,13 +3,12 @@
 # Schrijf een functie met twee parameters (integers).
 # De functie retourneert de vermenigvuldiging van de twee parameters.
 
-def sommeer(getal_1, getal_2): # parameters kun je gebriuk als var in je functie
+
+def sommeer(getal_1, getal_2):
     vermeningvukdig = getal_1 * getal_2
     return vermeningvukdig
-def vermeningvukdig(x, y):
-    pass
 
-print(vermeningvukdig(3, 5))
-
-pietje = sommeer(3, 5)
-print(f"het antwoord op de som van 3 en 5 is: {pietje}")
+getal_1 = 5
+getal_2 = 3 
+resultaat_van_vermenig = sommeer(getal_1, getal_2) 
+print(f"de vermenigvuldiging van{getal_1} en {getal_2} is {resultaat_van_vermenig} ")
