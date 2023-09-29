@@ -49,7 +49,7 @@ getal3 = 12
 antwoord = som(getal1, getal2, getal3)# of de naam van je eigen functie.
 print(f"De som van {getal1} + {getal2} + {getal3} = {antwoord}")
 
-# Opdracht 
+# Opdracht 6
 # Maak de volgende code af:# Je moet bijbetalen als je over je minuten of je GB's heen gaat en geen onbeperkt abonnement hebt.
 AANTAL_GB = 20 # Aantal GB data in je bundel
 AANTAL_MINUTEN = 200 # Aantal belminuten in je bundel
@@ -65,4 +65,20 @@ else:
 #opdracht 7
 # Print onder elkaar de getallen 1-250 met max 2 regels code
 for getallen in range(1,250):
-    print(getallen + 1)
+    print(getallen)
+
+
+#opdracht 8
+# Gegeven is:
+
+lijst_eten = ['appel', 'pannenkoek', 'kiwi', 'hamburger']
+
+# a: print een eenvoudig menu met de volgende layout:
+
+# Onze menukaart:
+# appel
+# pannenkoek
+# kiwi
+# hamburger 
+
+# b: Schrijf code die ervoor zorgt dat alleen het eten met de langste naam wordt geprint in de terminal. # Let op: je moet in de code eerst bepalen welk eten de langste naam heeft (en dus niet hardcoded 1 voor de index gebruiken). # test je code door extra eten toe te voegen met een nog langere naam
