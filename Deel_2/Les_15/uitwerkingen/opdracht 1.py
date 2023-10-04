@@ -1,13 +1,13 @@
-# opdracht 1
-# Schrijf een functie met twee parameters (integers).
-# De functie retourneert de som van de twee parameters.
+#opdracht 1
 
 
-def som_van_2_getalen(getal1, getal2):
-    som = getal1 + getal2
+def sommeer(getal_1, getal_2): # parameters kun je gebriuk als var in je functie
+    som = getal_1 + getal_2
     return som
 
-resultaat = (som_van_2_getalen(22, 11))
-print(f"de som van som is :{resultaat}")
 
+getal_1 = 4
+getal_2 = 8
 
+resultaat = sommeer(getal_1, getal_2)
+print(f"het antwoord op de som van {getal_1} en {getal_2} is: {resultaat}")
