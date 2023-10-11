@@ -70,15 +70,20 @@ for getallen in range(1,250):
 
 #opdracht 8
 # Gegeven is:
-
-lijst_eten = ['appel', 'pannenkoek', 'kiwi', 'hamburger']
-
 # a: print een eenvoudig menu met de volgende layout:
-
 # Onze menukaart:
+menu_kaart = ['appel', 'pannenkoek', 'kiwi', 'hamburger']
+print("# Onze menukaart: ")
+
+for item in menu_kaart:
+    print("#", item)
 # appel
 # pannenkoek
 # kiwi
 # hamburger 
+langste_naam = len(max(menu_kaart))
+print("\nHet voedsel met de langste naam is:", langste_naam)
 
-# b: Schrijf code die ervoor zorgt dat alleen het eten met de langste naam wordt geprint in de terminal. # Let op: je moet in de code eerst bepalen welk eten de langste naam heeft (en dus niet hardcoded 1 voor de index gebruiken). # test je code door extra eten toe te voegen met een nog langere naam
+# b: Schrijf code die ervoor zorgt dat alleen het eten met de langste naam wordt geprint in de terminal.
+# # Let op: je moet in de code eerst bepalen welk eten de langste naam heeft (en dus niet hardcoded 1 voor de index gebruiken).
+#  # test je code door extra eten toe te voegen met een nog langere naam
